@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3legant.</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+    <div class="sign-up">
+        <div class="sign-up-left">
+            <img src="signup.png" alt="chair-image" width="656" height="1080" />
+        </div>
+        <div class="sign-up-right">
+            <div class="sign-up-right-inner">
+                <h2>Sign up</h2>
+                <p style="color: #6C7275;">Already have an accout? <span><a href="#">Sign in</a></span></p>
+                <input type="text" placeholder="Your name" id="name" />
+                <input type="text" placeholder="Username" id="username" />
+                <input type="email" placeholder="Email address" id="email" />
+                <input type="password" placeholder="Password" />
+                <div class="checkbox-container">
+                    <input type="checkbox" id="checkbox" />
+                    <p>I agree with <span><strong>Privacy Policy</strong></span> and <span><strong>Terms of Use</strong></span></p>
+                </div>
+                <button onclick="signup()">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
